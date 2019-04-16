@@ -1,7 +1,6 @@
-let randomMovieArray = ['Deadpool', 'The Hangover', '21 Jump Street', 'The perfect Date'];
-
 let imagen = document.getElementById('imagen');
-
+let hi = document.getElementById('hi');
+let name = document.getElementById('name');
 const apicall = () => {
     let randomNumber = Math.floor((Math.random() * randomMovieArray.length - 1) + 1);
     let randomMovie = randomMovieArray[randomNumber];
@@ -14,7 +13,8 @@ const apicall = () => {
             if (image !== 'N/A') {
                 imagen.src = image;
             }
-            console.log(data);
+            hi.innerHTML=data.Plot;
+            name.innerHTML=data.Title;
         })
 };
 
