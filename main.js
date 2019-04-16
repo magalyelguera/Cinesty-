@@ -14,7 +14,7 @@ const apicall = () => {
             if (image !== 'N/A') {
                 imagen.src = image;
             }
-            console.log(data);
+            console.log(data.Year);
         })
 };
 
