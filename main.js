@@ -1,4 +1,4 @@
-let randomMovieArray = ['Deadpool', 'The Hangover', '21 Jump Street', 'The perfect Date'];
+let randomMovieArray = ['Deadpool', 'The Hangover', '21 Jump Street', 'The perfect Date',];
 
 let imagen = document.getElementById('imagen');
 
