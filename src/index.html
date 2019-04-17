@@ -9,41 +9,51 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="#">
         <img class="logo" src="img/pop.svg" alt="logo">
       </a>
-      <a class="navbar-brand title" href="#">cinesty</a>
-      <button type="button" id="premiers" class="btn btn-primary btn-sm">Premiers</button>
+      <h1 class="navbar-brand title">comedin</h1>
     </nav>
+    <div class="second-navbar navbar-expand-md">
+      <button type="button" id="home" class="premiers btn btn-primary btn-sm">HOME</button>
+      <button type="button" id="new" class="premiers btn btn-primary btn-sm">NEW MOVIES</button>
+    </div>
   </header>
+  <div id="hi"></div>
   <div id="demo" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
     <ul class="carousel-indicators">
       <li data-target="#demo" data-slide-to="0" class="active"></li>
       <li data-target="#demo" data-slide-to="1"></li>
       <li data-target="#demo" data-slide-to="2"></li>
     </ul>
 
-    <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/1.jpg" width="100%" height="500">
+        <img src="img/sponge.jpg" alt="Los Angeles">
       </div>
       <div class="carousel-item">
-        <img src="img/2.jpg" width="100%" height="500">
+        <img src="img/grown-ups2.jpg" alt="Chicago">
       </div>
       <div class="carousel-item">
-        <img src="img/3.jpg" width="100%" height="500">
+        <img src="img/zoo.jpg" alt="New York">
       </div>
     </div>
 
-    <!-- Left and right controls -->
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
       <span class="carousel-control-prev-icon"></span>
     </a>
@@ -51,22 +61,22 @@
       <span class="carousel-control-next-icon"></span>
     </a>
   </div>
-  <div id="container" class="container">
-    <h2>Card Image</h2>
-    <p>Image at the top (card-img-top):</p>
-    <div class="card cards">
-      <img id="imagen" class="card-img-top"
-        src="https://vollrath.com/ClientCss/images/VollrathImages/No_Image_Available.jpg" alt="Card image"
-        style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title" id="name">John Doe</h4>
-        <p id="hi" class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-        <button id="btn" class="btn btn-primary">See Profile</button>
+  <main id="watch">
+    <div class="background-img">
+      <div class="container text">
+        <h2 class="watch">Watch your favorite funny movies online</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean
+          nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et
+          magnis dis parturientmontes nascetur ridiculus mus. Nulla dui. Fusce feugiat ma
+          lesuada odio. Morbi nunc odio gravida atcursus nec.
+        </p>
       </div>
     </div>
-    <script src="main.js"></script>
-    <script src="data.js"></script>
-    <script src="./data/movies.js"></script>
+  </main>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+  <script src="./data/movies.js"></script>
 </body>
 
 </html>

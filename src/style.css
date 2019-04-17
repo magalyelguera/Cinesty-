@@ -3,7 +3,6 @@
 }
 .container {
   text-align: center;
-  margin: 0 auto;
 }
 
 .container img {
@@ -21,11 +20,13 @@
 }
 .title{
   font-weight:bolder;
-  font-size: 25px;
+  font-size: 40px;
+  color: white;
 }
 .cards{
-    width: min-content;
-    margin: auto;
+  width: 20%;
+    display: inline-flex;
+    margin: 20px 30px;
 }
 .container button {
   width: 300px;
@@ -33,5 +34,47 @@
 }
 .carousel-inner img {
   width: 100%;
-  height: 100%;
+  height: 600px;
+}
+.navbar{
+  background-color: #3F3E40;
+}
+.premiers{
+  background-color: #FFD000;
+  border-color: #FFD000;
+  border-radius: 10px;
+  margin-right:10px;
+}
+.premiers:hover{
+  background-color: white;
+  color: black;
+  border-color: #FFD000;
+  border-radius: 10px;
+}
+.second-navbar{
+  background-color: #FFD000;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  display: flex
+}
+.background-img { 
+  /* The image used */
+  background-image: url("img/parallax.png");
+
+  /* Set a specific height */
+  height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text{
+  color: white;
+}
+.watch{
+  font-weight: bolder;
+  font-size: 30px;
 }
