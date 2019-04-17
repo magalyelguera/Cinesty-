@@ -26,11 +26,11 @@ La cifra fue establecida por un estudio realizado a casi 10 mil ciudadanos en 20
 
 Los usuarios declararon que pasan en promedio 2:59 horas en el Internet. Frente al Tv declararon estar 3:04 horas al día. Es así que que vemos un crecimiento exponencial en el mercado audiovisual online. 
 
-###Descripción
+## Descripción
 
 El producto es una página web interactiva 
 
-###Proceso de Diseño
+## Proceso de Diseño
 
 * Descubrimiento e Investigación
 Para poder entender e identificar la necesidad del usuario, primero realizamos una encuesta aleatoria.
@@ -61,23 +61,23 @@ Prototipo de baja fidelidad realizada con Lapiz y Papel
 Prototipo de alta fidelidad realizada en Figma
 [Figma](https://www.figma.com/file/dJF8C28DcURNZeuJKxNXHPmS/PROTOTIPO-DE-ALTA-FIDELIDAD?node-id=0%3A1)
 
-####Historias de Usuario
+## Historias de Usuario
 
 1. "Yo como usuario quiero poder registrarme en la aplicación"
 2. "Yo como usuario quiero ver los últimos estrenos al abrir la aplicaición"
 3. "Yo como usuario quiero poder visualizar las películas mas recientes y antíguas del género Comedia"
 4. "Yo como usuario quiero poder escoger las películas segun su año de estreno"
 
-###¿Qué problema del usuario soluciona?
+## ¿Qué problema del usuario soluciona?
 El producto lleva el nombre de C😁MEDIN; es una página web divertida donde el usuario ingresa con una cuenta personal, encuentra videos del género Comedia, puede visualizar  los últimos estrenos al abrir la aplicación,puede visualizar las películas mas recientes y antíguas del género Comedia así mismo escoger las películas segun su año de estreno.
 
-####Implementación de la Interfaz de Usuario
+## Implementación de la Interfaz de Usuario
 El producto esta implementado con HTML/CSS/JS
 
 La data que usamos es de OMDb API a taves de fetch.
 [OMDb-API](http://www.omdbapi.com/)
 
-##Autores
+## Autores
 Magaly Elguera - Stefany Bernardillo - Valeria Berrocal
 
 
